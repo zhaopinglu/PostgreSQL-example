@@ -1,7 +1,6 @@
 name: Postgres Service Example
 
-on: watch
-
+on: [push, fork]
 
 jobs:
   container-job:
